@@ -75,7 +75,7 @@ export default function LoginUseReducer() {
       <div className="login-container">
         {isLoggedIn ? (
           <>
-            <h1>Welcome {username}!</h1>
+            <h1>Welcdome {username}!</h1>
             <button onClick={() => dispatch({ type: "logOut" })}>
               Log Out
             </button>
