@@ -19,6 +19,8 @@ jobs:
           node-version: 20.x
       - name: Install NPM Dependencies
         run: npm i
+      - name: Run Tests
+        run: npm run test
       - name: Build Project
         run: npm run build
       - name: Upload Artifact in Order to Deploy
